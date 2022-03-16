@@ -1,0 +1,119 @@
+.sidebar {
+  padding-top: 30px;
+  padding-right: 60px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: -webkit-sticky;
+  position: sticky;
+  border-right: 1px solid var(--twitter-background);
+}
+
+.sidebar .menu__list {
+  margin-top: 2rem;
+}
+
+.sidebar .menu__list img {
+  width: 26px;
+  height: 26px;
+  margin-right: 15px;
+}
+
+.sidebar .menu__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: black;
+}
+
+.sidebar .menu__links--active {
+  color: var(--twitter);
+  border-right: 3px solid var(--twitter);
+  border-radius: 1px;
+  -webkit-transition: color 100ms ease-out;
+  transition: color 100ms ease-out;
+}
+
+.sidebar .tweetBtn {
+  width: 240px;
+  background: #1da1f2;
+  border-radius: 50px;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px;
+  padding: 10px 15px;
+  margin-top: 2rem;
+}
+
+.sidebar .tweetBtn:hover {
+  opacity: 0.8;
+}
+
+.sidebar .tweetBtn:active {
+  opacity: 0.6;
+}
+
+.sidebar__avatar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 60px;
+}
+
+.sidebar__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 10px;
+}
+
+.sidebar__text span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sidebar__text span .username {
+  opacity: 0.6;
+  margin-left: 5px;
+}
+
+.sidebar__text h3 {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.sidebar__text p {
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+}
+/*# sourceMappingURL=Sidebar.css.map */

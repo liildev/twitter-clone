@@ -1,0 +1,171 @@
+.tweetProf {
+    position: relative;
+
+    padding-bottom: 10px;
+    padding: 0 20px;
+
+    &::after {
+        content: ("");
+        position: absolute;
+
+        bottom: 1px;
+        left: -20px;
+        width: 700px;
+        height: 1px;
+        background: var(--twitter-background);
+    }
+
+    &::before {
+        content: ("");
+        position: absolute;
+        background: url(../../../assets/img/logo.jpg)no-repeat;
+        background-size: 100% 100%;
+
+        width: 650px;
+        height: 270px;
+        top: -141px;
+        left: -20px;
+    }
+
+    &__logo {
+        display: flex;
+        margin-top: 200px;
+
+        .avatar {
+            border: 3px solid white;
+            width: 150px;
+            height: 150px;
+            margin-top: 3.5rem;
+        }
+
+        .edit {
+            margin-left: auto;
+            margin-top: 150px;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 18px;
+            background: none;
+            border: 1px solid var(--twitter-background);
+            border-radius: 30px;
+            padding: 5px 15px;
+            width: 140px;
+            height: 40px;
+
+            &:hover {
+                background: var(--twitter-background);
+            }
+        }
+    }
+
+    &__tweet {
+        background: #1DA1F2!important;
+        border: none!important;
+        color: white!important;
+        font-weight: 900!important;
+        text-transform: inherit !important;
+        margin-top: 1rem !important;
+        margin-left: auto!important;
+        border-radius: 30px !important;
+        width: 80px;
+        height: 40px !important; 
+        padding: 20px!important;
+
+        &:hover {
+            background: #1da0f293!important;
+        }
+    }
+    &__name {
+        margin-top: 1rem;
+
+        h2 {
+            font-weight: bold;
+            font-size: 22px;
+            line-height: 32px;
+        }
+
+        span {
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 18px;
+            opacity: 0.6;
+        }
+
+        p {
+            margin-top: 1rem;
+
+            a {
+                color: var(--twitter);
+                margin-left: 5px;
+            }
+        }
+    }
+
+    &__location {
+        margin-top: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        div {
+            display: flex;
+            align-items: center;
+
+            a {
+                color: #000000;
+                opacity: 0.6;
+            }
+
+            img {
+                margin-right: 5px;
+            }
+
+            .telegram {
+                opacity: 1;
+                color: var(--twitter);
+            }
+        }
+    }
+
+    &__followers {
+        display: flex;
+        align-items: center;
+
+        p {
+            display: flex;
+            align-items: center;
+            font-weight: bold;
+
+            span {
+                margin-left: 6px;
+            }
+        }
+
+        .followers {
+            margin-left: 2rem;
+        }
+    }
+
+    .menuBar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 40px;
+        margin-top: 40px;
+
+        li {
+            
+            :hover {
+                border-bottom: 5px solid var(--twitter);
+                font-weight: 600;
+                border-radius: 3px;
+            }
+            
+            a {
+                padding: 5px;
+                font-size: 14px;
+                line-height: 18px;
+                color: #000000;
+            }
+        }
+    }
+}

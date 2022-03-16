@@ -1,0 +1,178 @@
+.Tweets {
+  width: 330px;
+  padding: 0 30px;
+  margin-top: 20px;
+  position: -webkit-sticky;
+  position: sticky;
+}
+
+.Tweets__input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.Tweets__input input {
+  width: 280px;
+  background: #eff3f4;
+  border-radius: 31px;
+  padding: 10px;
+}
+
+.Tweets__input input::-webkit-input-placeholder {
+  padding-left: 30px;
+}
+
+.Tweets__input input:-ms-input-placeholder {
+  padding-left: 30px;
+}
+
+.Tweets__input input::-ms-input-placeholder {
+  padding-left: 30px;
+}
+
+.Tweets__input input::placeholder {
+  padding-left: 30px;
+}
+
+.Tweets__search {
+  position: absolute;
+  left: 10px;
+  top: 8px;
+  color: #5c6c79;
+}
+
+.Tweets__container {
+  background: #f7f9f9;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.Tweets__container .trends {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Tweets__container .trends h2 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.Tweets__container .trends .settings {
+  margin-left: auto;
+}
+
+.Tweets__container .revolution {
+  margin-top: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Tweets__container .revolution p {
+  font-size: 16px;
+  line-height: 21px;
+  color: #393b41;
+  opacity: 0.6;
+}
+
+.Tweets__container .revolution .more {
+  margin-left: auto;
+  margin-top: 5px;
+}
+
+.Tweets__container .revolution__trending h3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+.Tweets__container .revolution__trending p {
+  margin-top: 3px;
+}
+
+.Tweets__like {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #f7f9f9;
+  border-radius: 10px;
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.Tweets__like h2 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.Tweets__like .follow {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 25px;
+}
+
+.Tweets__like .follow .follower {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: 10px;
+}
+
+.Tweets__like .follow .follower p {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.Tweets__like .follow .follower h3 {
+  font-size: 12px;
+  line-height: 12px;
+  opacity: 0.6;
+}
+
+.Tweets__like .follow button {
+  background: #000000;
+  color: white;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 80%;
+  margin-left: auto;
+  height: 30px;
+  padding: 0 12px;
+}
+
+.Tweets a {
+  color: var(--twitter);
+  font-size: 14px;
+  line-height: 100%;
+  margin-top: 15px;
+  padding-bottom: 10px;
+}
+/*# sourceMappingURL=Tweets.css.map */

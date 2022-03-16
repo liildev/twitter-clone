@@ -1,0 +1,193 @@
+.tweetProf {
+  position: relative;
+  padding-bottom: 10px;
+  padding: 0 20px;
+}
+
+.tweetProf::after {
+  content: "";
+  position: absolute;
+  bottom: 1px;
+  left: -20px;
+  width: 700px;
+  height: 1px;
+  background: var(--twitter-background);
+}
+
+.tweetProf::before {
+  content: "";
+  position: absolute;
+  background: url(../../../assets/img/logo.jpg) no-repeat;
+  background-size: 100% 100%;
+  width: 650px;
+  height: 270px;
+  top: -141px;
+  left: -20px;
+}
+
+.tweetProf__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 200px;
+}
+
+.tweetProf__logo .avatar {
+  border: 3px solid white;
+  width: 150px;
+  height: 150px;
+  margin-top: 3.5rem;
+}
+
+.tweetProf__logo .edit {
+  margin-left: auto;
+  margin-top: 150px;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  background: none;
+  border: 1px solid var(--twitter-background);
+  border-radius: 30px;
+  padding: 5px 15px;
+  width: 140px;
+  height: 40px;
+}
+
+.tweetProf__logo .edit:hover {
+  background: var(--twitter-background);
+}
+
+.tweetProf__tweet {
+  background: #1DA1F2 !important;
+  border: none !important;
+  color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  margin-top: 1rem !important;
+  margin-left: auto !important;
+  border-radius: 30px !important;
+  width: 80px;
+  height: 40px !important;
+  padding: 20px !important;
+}
+
+.tweetProf__tweet:hover {
+  background: #1da0f293 !important;
+}
+
+.tweetProf__name {
+  margin-top: 1rem;
+}
+
+.tweetProf__name h2 {
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 32px;
+}
+
+.tweetProf__name span {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  opacity: 0.6;
+}
+
+.tweetProf__name p {
+  margin-top: 1rem;
+}
+
+.tweetProf__name p a {
+  color: var(--twitter);
+  margin-left: 5px;
+}
+
+.tweetProf__location {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.tweetProf__location div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tweetProf__location div a {
+  color: #000000;
+  opacity: 0.6;
+}
+
+.tweetProf__location div img {
+  margin-right: 5px;
+}
+
+.tweetProf__location div .telegram {
+  opacity: 1;
+  color: var(--twitter);
+}
+
+.tweetProf__followers {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.tweetProf__followers p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-weight: bold;
+}
+
+.tweetProf__followers p span {
+  margin-left: 6px;
+}
+
+.tweetProf__followers .followers {
+  margin-left: 2rem;
+}
+
+.tweetProf .menuBar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 40px;
+  margin-top: 40px;
+}
+
+.tweetProf .menuBar li :hover {
+  border-bottom: 5px solid var(--twitter);
+  font-weight: 600;
+  border-radius: 3px;
+}
+
+.tweetProf .menuBar li a {
+  padding: 5px;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+}
+/*# sourceMappingURL=TweetProf.css.map */

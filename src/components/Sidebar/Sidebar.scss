@@ -1,0 +1,96 @@
+.sidebar {
+  padding-top: 30px;
+  padding-right: 60px;
+  width: fit-content;
+  position: sticky;
+  border-right: 1px solid var(--twitter-background);
+
+  .menu {
+    &__list {
+      margin-top: 2rem;
+
+      img {
+        width: 26px;
+        height: 26px;
+        margin-right: 15px;
+      }
+    }
+
+    &__links {
+      display: flex;
+      align-items: center;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 24px;
+      color: black;
+
+      &--active {
+        color: var(--twitter);
+        border-right: 3px solid var(--twitter);
+        border-radius: 1px;
+        transition: color 100ms ease-out;
+      }
+    }
+  }
+
+  .tweetBtn {
+    width: 240px;
+    background: #1da1f2;
+    border-radius: 50px;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 24px;
+
+    padding: 10px 15px;
+
+    margin-top: 2rem;
+
+    &:hover {
+      opacity: 0.8;
+    }
+
+    &:active {
+      opacity: 0.6;
+    }
+  }
+
+  &__avatar {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+  }
+  &__text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+
+    span {
+      display: flex;
+      align-items: center;
+
+      .username {
+        opacity: 0.6;
+        margin-left: 5px;
+      }
+    }
+
+    h3 {
+      font-weight: bold;
+      font-size: 16px;
+      line-height: 20px;
+      color: #000000;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 18px;
+      color: #000000;
+    }
+  }
+}

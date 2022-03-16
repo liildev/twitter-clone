@@ -1,0 +1,137 @@
+.widgets {
+  width: 330px;
+  padding: 0 30px;
+  margin-top: 20px;
+  &__input {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    input {
+      width: 280px;
+      background: #eff3f4;
+      border-radius: 31px;
+      padding: 10px;
+
+      &::placeholder {
+        padding-left: 30px;
+      }
+    }
+  }
+  &__search {
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    color: #5c6c79;
+  }
+
+  &__container {
+    background: #f7f9f9;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+
+    .trends {
+      display: flex;
+
+      h2 {
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 32px;
+      }
+
+      .settings {
+        margin-left: auto;
+      }
+    }
+
+    .revolution {
+      margin-top: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      p {
+        font-size: 16px;
+        line-height: 21px;
+        color: #393b41;
+        opacity: 0.6;
+      }
+
+      .more {
+        margin-left: auto;
+        margin-top: 5px;
+      }
+
+      &__trending {
+        h3 {
+          font-weight: 600;
+          font-size: 18px;
+          line-height: 27px;
+        }
+
+        p {
+          margin-top: 3px;
+        }
+      }
+    }
+  }
+
+  &__like {
+    display: flex;
+    flex-direction: column;
+    background: #f7f9f9;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px;
+
+    h2 {
+      font-weight: bold;
+      font-size: 22px;
+      line-height: 32px;
+    }
+
+    .follow {
+      display: flex;
+      align-items: center;
+      margin-top: 25px;
+
+      .follower {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 10px;
+
+        p {
+          font-weight: 600;
+          font-size: 14px;
+          line-height: 24px;
+        }
+
+        h3 {
+          font-size: 12px;
+          line-height: 12px;
+          opacity: 0.6;
+        }
+      }
+
+      button {
+        background: #000000;
+        color: white;
+        border-radius: 50px;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 80%;
+        margin-left: auto;
+        height: 30px;
+        padding: 0 12px;
+      }
+    }
+  }
+
+  a {
+    color: var(--twitter);
+    font-size: 14px;
+    line-height: 100%;
+    margin-top: 15px;
+    padding-bottom: 10px;
+  }
+}

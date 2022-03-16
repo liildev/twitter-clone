@@ -1,0 +1,62 @@
+.feed2 {
+  border-right: 1px solid var(--twitter-background);
+  min-width: -webkit-fit-content;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.feed2__header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  padding: 0 20px;
+  z-index: 2;
+  border-bottom: 1px solid var(--twitter-background);
+  border-right: 1px solid var(--twitter-background);
+  width: 45%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  z-index: 1;
+  padding: 6px 0;
+}
+
+.feed2__header img {
+  width: 20px;
+  height: 20px;
+  margin-left: 1rem;
+}
+
+.feed2__header .home2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-left: 30px;
+}
+
+.feed2__header .home2 h2 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 32px;
+  color: #000000;
+}
+
+.feed2__header .home2 p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 14px;
+  color: #000000;
+  opacity: 0.6;
+}
+/*# sourceMappingURL=Feed.css.map */
